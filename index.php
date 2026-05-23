@@ -85,7 +85,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         </tr>
                     </thead>
                     <tbody id="colis-list">
-                        <?php if (!empty($listeColis)): ?>
                          <tr>
                             <td colspan="6" style="text-align: center">Aucun colis trouvé</td>
                          </tr>
@@ -94,6 +93,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
          </div>
     </div>
-    
+    <div class="footer">
 </body>
 </html>
