@@ -5,6 +5,7 @@ if (file_exists($fichierJson)) {
     $contenu = file_get_contents($fichierJson);
     $listeColis = json_decode($contenu, true);
 }
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $numero = $_POST['numero'];
     $nom = $_POST['nom'];
